@@ -23,7 +23,7 @@ completBtn.forEach(function(button){
         let title = this.closest(".parentdiv").querySelector(".title").innerText;
         const clearBtn = document.querySelector(".clearBtn");
 
-        alert()
+        alert("Board update successfully")
         intnumber --;
         intIncreaseNum ++;
         increaseNumber.innerText = intIncreaseNum;
