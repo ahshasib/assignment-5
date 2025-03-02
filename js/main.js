@@ -38,7 +38,7 @@ completBtn.forEach(function(button){
         // history functionality start
         let makeP = document.createElement("p");
         makeP.innerText = `Completed: ${title} ${bdTime}`;
-        makeP.classList.add("text-lg", "p-4", "bg-sky-50","shadow-ld", "rounded", "m-4");
+        makeP.classList.add("text-lg", "p-4", "bg-sky-50","shadow-lg", "rounded", "m-4");
         
         histroy.appendChild(makeP);
         
