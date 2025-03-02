@@ -4,3 +4,11 @@ let bdTime = new Date().toLocaleTimeString("en-US", {
     minute: "2-digit", 
     hour12: true 
 });
+
+const bdDate = new Date().toLocaleDateString("en-US", {
+    weekday: "long",
+    timeZone: "Asia/Dhaka", 
+    year: "numeric", 
+    month: "long", 
+    day: "numeric"
+});

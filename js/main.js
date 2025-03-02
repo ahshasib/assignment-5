@@ -31,13 +31,17 @@ completBtn.forEach(function(button){
         this.disabled = true;
 
 
+        if (intnumber === 0) {
+           alert("congratullation")
+        }
+
         // history functionality start
         let makeP = document.createElement("p");
         makeP.innerText = `Completed: ${title} ${bdTime}`;
         makeP.classList.add("text-lg", "p-4", "bg-white", "rounded", "m-4");
         
         histroy.appendChild(makeP);
-        console.log(title)
+        
 
 
         clearBtn.addEventListener("click", function(){
@@ -68,3 +72,10 @@ backToDesk.addEventListener("click", function () {
 });
    
 }
+
+
+// topDateSection
+
+let topDate = document.querySelector(".topDate");
+topDate.innerText = bdDate
+topDate.classList.add("font-bold",) 
